@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hole — Eric Kimani</title>
+<meta name="description" content="Hole is a full-stack messaging app built by Eric Kimani, focused on disappearing messages and real-time communication.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="name">Eric Kimani</span>
+      <span class="role">Full-Stack &amp; Mobile Developer</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#build">What I Build</a>
+      <a href="index.html#work">Projects</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#approach">Approach</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="index.html#contact" class="btn btn-navy">Let's Talk</a>
+      <button class="nav-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a href="index.html#work" class="back">← Back to projects</a>
+    <h1>Hole</h1>
+    <p class="tagline">A messaging app focused on disappearing communication.</p>
+    <span class="status">Web &amp; Mobile</span>
+    <div class="meta">
+      <div>Role<strong>Full-Stack Development</strong></div>
+      <div>Platform<strong>React Native, Node.js</strong></div>
+      <div>Database<strong>MongoDB</strong></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap proj-shot">
+  <div class="frame">
+    <div class="shot-grid phone">
+      <img src="assets/hole-welcome.jpg" alt="Hole welcome and email verification screen">
+      <img src="assets/hole-chats.jpg" alt="Hole chats screen, empty state">
+      <img src="assets/hole-settings.jpg" alt="Hole settings screen">
+    </div>
+  </div>
+</div>
+
+<section class="proj-section">
+  <div class="wrap proj-cols">
+    <div>
+      <div class="label">The Idea</div>
+      <h2>Messaging that doesn't need to stay permanent.</h2>
+    </div>
+    <div>
+      <p>Hole was built around a simple concept: messaging that does not need to remain permanent. The application is designed around disappearing messages, creating a different kind of communication experience from traditional messaging platforms.</p>
+      <p>The project also explores how a messaging app can combine a simple interface with the technical systems needed to support real users and real conversations.</p>
+    </div>
+  </div>
+</section>
+
+<section class="proj-section">
+  <div class="wrap proj-cols">
+    <div>
+      <div class="label">The Interface</div>
+      <h2>Authentication through to real-time chat.</h2>
+    </div>
+    <div>
+      <p>I worked on the mobile application interface, including the authentication screens, user setup, home experience, and chat screens — aiming for an experience that feels straightforward while supporting the functionality behind it.</p>
+      <ul class="feature-list">
+        <li>Registration &amp; login</li>
+        <li>Email verification</li>
+        <li>User profiles</li>
+        <li>Conversations &amp; chat screens</li>
+        <li>Real-time interaction</li>
+        <li>Disappearing messages</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="proj-section">
+  <div class="wrap proj-cols">
+    <div>
+      <div class="label">Authentication &amp; Backend</div>
+      <h2>A real backend behind the interface.</h2>
+    </div>
+    <div>
+      <p>One of the major parts of Hole has been developing its authentication system: registration, login, email OTP verification, password handling, and session management, with a verification flow that confirms a user's email before completing registration.</p>
+      <p>Hole is supported by a Node.js and Express backend, handling API routes, authentication flow, and the connection to MongoDB and Mongoose for user data and authentication records — plus Socket.io for real-time messaging, typing indicators, and seen states.</p>
+    </div>
+  </div>
+</section>
+
+<section class="proj-section">
+  <div class="wrap">
+    <div class="label">Technologies</div>
+    <div class="tech-row">
+      <span>React Native</span><span>Expo</span><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Mongoose</span><span>Socket.io</span><span>JWT</span><span>Firebase Hosting</span><span>Render</span>
+    </div>
+  </div>
+</section>
+
+<section class="proj-explore">
+  <div class="wrap">
+    <h2>Explore the Project</h2>
+    <p>Take a look at the source, or get in touch if you'd like a walkthrough.</p>
+    <div class="btn-row">
+      <a href="https://github.com/Erickim33/Hole-app" class="btn btn-navy" target="_blank" rel="noopener">View Source Code</a>
+      <a href="index.html#contact" class="btn btn-outline-dark">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Eric Kimani. All rights reserved.</p>
+    <div class="foot-links">
+      <a href="safe-card.html">Safe Card</a>
+      <a href="mychurch.html">MyChurch</a>
+      <a href="nexeric-games.html">Nexeric Games</a>
+      <a href="download.html">Downloads</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

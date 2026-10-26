@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyChurch — Eric Kimani</title>
+<meta name="description" content="MyChurch is a church-finder platform prototype by Eric Kimani, art-directed around the feeling of arriving somewhere new.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="name">Eric Kimani</span>
+      <span class="role">Full-Stack &amp; Mobile Developer</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#build">What I Build</a>
+      <a href="index.html#work">Projects</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#approach">Approach</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="index.html#contact" class="btn btn-navy">Let's Talk</a>
+      <button class="nav-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a href="index.html#work" class="back">← Back to projects</a>
+    <h1>MyChurch</h1>
+    <p class="tagline">Built around the feeling of arriving somewhere new.</p>
+    <span class="status">Front-End Prototype</span>
+    <div class="meta">
+      <div>Role<strong>Design &amp; Front-End Development</strong></div>
+      <div>Stack<strong>HTML, CSS, JavaScript</strong></div>
+      <div>Hosting<strong>Firebase</strong></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap proj-shot">
+  <div class="frame">
+    <div class="shot-grid tall two">
+      <img src="assets/church-hero.jpg" alt="MyChurch home page hero">
+      <img src="assets/church-directory.jpg" alt="MyChurch directory listing">
+    </div>
+  </div>
+</div>
+
+<section class="proj-section">
+  <div class="wrap proj-cols">
+    <div>
+      <div class="label">The Idea</div>
+      <h2>Finding a church shouldn't feel like guesswork.</h2>
+    </div>
+    <div>
+      <p>MyChurch started with a familiar problem: church directories are outdated, websites are inconsistent, and there's no way to get a feel for a place before showing up on a Sunday morning.</p>
+      <p>The goal was to give every church one clear, honest profile, and give visitors one simple place to explore them all before they ever walk through the door.</p>
+    </div>
+  </div>
+</section>
+
+<section class="proj-section">
+  <div class="wrap proj-cols">
+    <div>
+      <div class="label">The Design</div>
+      <h2>A direction I called "The Threshold."</h2>
+    </div>
+    <div>
+      <p>MyChurch is built around a design direction inspired by the moment of standing at an unfamiliar door: a deep navy and warm ivory palette, a muted-gold accent, and a pairing of Cormorant Garamond for headings with Inter for body text, with a light/dark theme toggle.</p>
+      <p>Rather than using stock photography, I wrote a small generative art system that draws a unique, seeded landscape for every church, so each profile gets its own stable image without relying on external assets.</p>
+    </div>
+  </div>
+</section>
+
+<section class="proj-section">
+  <div class="wrap proj-cols">
+    <div>
+      <div class="label">The Development</div>
+      <h2>A full multi-page platform structure.</h2>
+    </div>
+    <div>
+      <p>Building MyChurch gave me practical experience designing and structuring a multi-page content platform, from directory search through to a user dashboard.</p>
+      <ul class="feature-list">
+        <li>Search by neighbourhood, denomination &amp; service</li>
+        <li>Church profiles with events &amp; sermon tabs</li>
+        <li>Events feed &amp; sermons feed</li>
+        <li>Dashboard with journey tracker</li>
+        <li>Sign-in &amp; notifications UI</li>
+        <li>Generative imagery, written in plain JS</li>
+      </ul>
+      <div class="note-box">This is currently a front-end prototype — sign-in, following, and giving are cosmetic for now, and all churches and people shown are fictional placeholders. It was an opportunity to work through full product design and structure before layering in a real backend.</div>
+    </div>
+  </div>
+</section>
+
+<section class="proj-section">
+  <div class="wrap">
+    <div class="label">Technologies</div>
+    <div class="tech-row">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Custom Generative Graphics</span><span>Responsive Design</span><span>Firebase Hosting</span>
+    </div>
+  </div>
+</section>
+
+<section class="proj-explore">
+  <div class="wrap">
+    <h2>Explore the Project</h2>
+    <p>Browse the live prototype, or get in touch for the source.</p>
+    <div class="btn-row">
+      <a href="https://my-church-841d7.web.app" class="btn btn-navy" target="_blank" rel="noopener">View Live Site</a>
+      <a href="index.html#contact" class="btn btn-outline-dark">Request Source Code</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Eric Kimani. All rights reserved.</p>
+    <div class="foot-links">
+      <a href="safe-card.html">Safe Card</a>
+      <a href="hole.html">Hole</a>
+      <a href="nexeric-games.html">Nexeric Games</a>
+      <a href="download.html">Downloads</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
